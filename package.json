@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start-api": "node api/app.js",
+    "start-proxy": "node proxy/server.js"
+  },
+  "author": "Mariia Alefirenko",
+  "license": "ISC",
+  "description": "Practice of the student of the group KI-213 Mariia Alefirenko.",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "convict": "^6.2.4",
+    "express": "^4.19.2"
+  }
+}
